@@ -118,3 +118,6 @@ Produce a file called `docs/PRODUCTION_DEPLOYMENT.md` containing:
 - **CI must pass before deploying.** No manual deploys that bypass the test pipeline except in emergencies.
 - **Document every manual step.** If you had to do something manually in a dashboard, write it so it can be automated later.
 - **Zero-downtime is the goal.** Use native deployment mechanisms of the hosting platforms.
+- Always update `docs/MEMORY.md` with deployment configuration and context
+- Always log activities in `docs/TIMELINE.md` with timestamps
+- Preserve all historical timeline entries — never delete past data

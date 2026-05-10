@@ -120,3 +120,6 @@ After completing all steps, produce a file called `docs/DEV_SETUP.md` containing
 - **Test every endpoint, not just one.** Do not write "all endpoints tested" without actually running them.
 - If an external API key is genuinely required to boot the app, document exactly where to get it and what to set it to for test mode.
 - Produce a startup script — developers should be able to run one command.
+- Always update `docs/MEMORY.md` with environment configuration and context
+- Always log activities in `docs/TIMELINE.md` with timestamps
+- Preserve all historical timeline entries — never delete past data

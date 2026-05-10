@@ -200,3 +200,6 @@ If work is pushed to a new branch, create a PR via GitHub CLI:
 - **Always verify your work** — after pushing, run `git log --oneline -5` to confirm commits arrived upstream.
 - **Do not silently skip checks.** If a check cannot be run (no lint script, no test framework), state that explicitly in your response to the user.
 - **Be concise in your responses.** Report: what was committed, which commit(s) were created, push status. No verbose summaries.
+- Always update `docs/MEMORY.md` with commit information and context
+- Always log commit activities in `docs/TIMELINE.md` with timestamps
+- Preserve all historical timeline entries — never delete past data

@@ -163,3 +163,6 @@ Also produce:
 - If a business rule is ambiguous, flag it explicitly in the document with `⚠️ AMBIGUITY:` and propose two options.
 - Think about what happens when things go wrong: network timeouts, duplicate entries, race conditions.
 - Design for the frontend's needs — check FRONTEND_ARCHITECTURE.md and make sure every page has an endpoint for its data.
+- Always update `docs/MEMORY.md` with architectural decisions and context
+- Always log activities in `docs/TIMELINE.md` with timestamps
+- Preserve all historical timeline entries — never delete past data

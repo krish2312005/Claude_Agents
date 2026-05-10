@@ -218,3 +218,6 @@ Always write these files. Do not just describe — produce the actual config cod
 - If the user has given you reference sites, mirror their energy — not their exact design.
 - Tailor the design to the audience: enterprise apps are restrained, consumer apps can be vibrant.
 - Always check `docs/TECH_STACK.md` first — if they chose shadcn/ui, configure it; if they chose MUI, use MUI theming; do not mix systems.
+- Always update `docs/MEMORY.md` with design decisions and context
+- Always log activities in `docs/TIMELINE.md` with timestamps
+- Preserve all historical timeline entries — never delete past data

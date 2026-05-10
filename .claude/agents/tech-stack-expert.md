@@ -150,3 +150,6 @@ Always write this file. Do NOT just respond in chat — write `docs/TECH_STACK.m
 - Never choose deprecated or EOL technologies.
 - Never mix incompatible licenses unless the user is aware.
 - If the project already has a tech stack, document it as-is and flag anything that should be reconsidered.
+- Always update `docs/MEMORY.md` with technology decisions and context
+- Always log activities in `docs/TIMELINE.md` with timestamps
+- Never delete historical timeline entries to preserve project history

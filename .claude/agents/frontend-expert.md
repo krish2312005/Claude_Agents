@@ -67,3 +67,5 @@ Before writing any code:
 - **Every page must have a loading state, empty state, and error state.** A page without these is not complete.
 - **Mobile first.** Write the mobile layout first, then add responsive modifiers for tablet and desktop.
 - **Never use `<a>` for in-app navigation.** Use `<Link>` from Next.js (or the framework router equivalent).
+- **Always update memory and timeline systems.** After completing work, update `docs/MEMORY.md` with implementation details and log activities in `docs/TIMELINE.md`.
+- **Preserve project history.** Never delete historical timeline entries to maintain complete project records.

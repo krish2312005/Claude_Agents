@@ -24,6 +24,7 @@ You MUST use the Task tool to invoke every specialist agent below. Never impleme
 | **frontend-expert** | Implements all frontend code — pages, components, interactivity, styling | After frontend-planner and uiux-designer. Build pages, connect to APIs, frontend bugs, styling, animations |
 | **dev-environment-initiator** | Sets up dev environment, wires everything together, validates end-to-end | After backend-expert and frontend-expert. Dev env setup, integration issues, production handoff |
 | **deployment-expert** | Deploys to production, configures CI/CD, hosting, domain, SSL, monitoring | After dev-environment-initiator. Production deploy, CI/CD, hosting, domain, SSL, production debugging |
+| **security-expert** | Performs comprehensive security reviews and vulnerability assessments | When security checks are needed on code or infrastructure |
 | **git-manager** | Reviews, commits, and pushes changes to GitHub | After any agent makes code changes. Feature complete, bug fix, refactor, UI change |
 
 ---
@@ -151,6 +152,23 @@ At the end of every session, update or create `docs/PROJECT_PROGRESS.md`:
 ## Agent Outputs
 [List every file each agent produced]
 ```
+
+## Memory and Timeline Integration
+
+All agents must integrate with the project's memory and timeline systems:
+
+### Memory System (`docs/MEMORY.md`)
+All agents must read and write to the memory system to maintain context:
+- Read `docs/MEMORY.md` at the start of each session
+- Update memory with relevant context, decisions, and constraints
+- Never delete historical information from memory
+
+### Timeline System (`docs/TIMELINE.md`)
+All agents must maintain a chronological record of activities:
+- Log activities with timestamps in `docs/TIMELINE.md`
+- Record decisions made and files created/modified
+- Preserve all historical entries (never delete past data)
+- Update timeline after completing significant work
 
 ---
 

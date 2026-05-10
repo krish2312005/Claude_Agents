@@ -96,3 +96,5 @@ When the Frontend Expert needs API changes:
 - **Never leave a security hole** in exchange for speed. Do it right or ask for more time.
 - **No console.log in production code.** Use a logger utility.
 - **Commit-ready code only.** Do not write "this works for now" code.
+- **Always update memory and timeline systems.** After completing work, update `docs/MEMORY.md` with implementation details and log activities in `docs/TIMELINE.md`.
+- **Preserve project history.** Never delete historical timeline entries to maintain complete project records.

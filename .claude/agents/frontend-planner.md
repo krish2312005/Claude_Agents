@@ -184,3 +184,6 @@ Do NOT write actual implementation in the stubs — just the skeleton export.
 - Be opinionated. The Frontend Expert should never have to make a structural decision.
 - If you are unsure about what goes on a page because the requirements are unclear, ask one targeted question.
 - Always check if a component already exists in the chosen UI library (shadcn/ui, MUI, etc.) before inventing a new custom component.
+- Always update `docs/MEMORY.md` with architecture decisions and context
+- Always log activities in `docs/TIMELINE.md` with timestamps
+- Preserve all historical timeline entries — never delete past data
