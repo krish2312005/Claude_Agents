@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "name": "pdf-reader",
+  "owner": "lorenzovenice",
+  "repo": "nanoclaw-venice",
+  "path": ".claude/skills/add-pdf-reader/add/container/skills/pdf-reader",
+  "branch": "main",
+  "sha": "8dc7e93c5d878c78697f0d054060d398996c7aec",
+  "source": "manual"
+}
